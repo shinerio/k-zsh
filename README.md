@@ -1,4 +1,4 @@
-# k-zsh
+# s-zsh
 
 This is the configuration source file for oh-my-zsh framework
 
@@ -10,7 +10,7 @@ Unix-like operating system (maxOs or linux)
 
 ## install zsh
 
-sh -c "$(https://raw.githubusercontent.com/shinerio/k-zsh/master/install_zsh.sh)"
+sh -c "$(https://raw.githubusercontent.com/shinerio/s-zsh/master/install_zsh.sh)"
 
 or following instruction here: [installing zsh](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH)
 
@@ -24,17 +24,17 @@ or following instruction here: [installing zsh](https://github.com/robbyrussell/
 
 `sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"`
 
-## install k-zsh
+## install s-zsh
 
 ```
 
 # Clone the repo to you ~/opt or ~/Projects as source dir.
 # Do NOT delete the source dir when installation completed.
-sh ./install_k_zsh.sh
+sh ./install_s_zsh.sh
 
 ```
 
-k-zsh 中配置了部分插件需要单独安装一下才能生效：
+s-zsh 中配置了部分插件需要单独安装一下才能生效：
 
 ```
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions

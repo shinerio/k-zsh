@@ -53,5 +53,5 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 cp ~/.zshrc ~/.zshrc_bac
 
-curl https://raw.githubusercontent.com/shinerio/k-zsh/master/zshrc > ~/.zshrc
+curl https://raw.githubusercontent.com/shinerio/s-zsh/master/zshrc > ~/.zshrc
 

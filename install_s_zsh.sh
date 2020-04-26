@@ -5,7 +5,7 @@ BASEDIR=$(dirname $0)
 cd $BASEDIR
 CURRENT_DIR=`pwd`
 
-echo "=== Start installing k-zsh configuration ==="
+echo "=== Start installing s-zsh configuration ==="
 
 echo "Step1: backing up current zsh config"
 today=`date +%Y%m%d`
