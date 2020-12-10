@@ -18,5 +18,5 @@ done
 
 echo "Step2: setting up symlinks"
 ln -sif $CURRENT_DIR/zshrc $HOME/.zshrc
-
+mkdir -p $HOME/.dotfiles/shellrc
 echo "=== Install Done! ==="
